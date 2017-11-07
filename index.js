@@ -1,7 +1,8 @@
 // Write your solution in this file!
 
 
-let driver = {};
+const driver = {};
 
-//function updateDriverWithKeyAndValue(driver, 'address', '11 Broadway'){
+//function updateDriverWithKeyAndValue (driver, key, value) {
+  return Object.assign({}, driver, { [key]: value });
 }
